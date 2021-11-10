@@ -1,11 +1,13 @@
 import React from 'react';
+import './reset.css';
+import Navbar from './components/Navbar';
+import Homepage from './components/Homepage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p style={{ textAlign: 'center' }}>App</p>
-      </header>
+      <Navbar />
+      <Homepage />
     </div>
   );
 }
