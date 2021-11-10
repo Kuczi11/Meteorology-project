@@ -9,6 +9,7 @@ const useStyles = makeStyles({
 
     '& h4': {
       marginLeft: '0.3em',
+      transition: 'color 0.5s linear',
       '&:hover': {
         color: 'yellow',
         transition: 'color 0.5s linear',
@@ -19,6 +20,9 @@ const useStyles = makeStyles({
   navbarToolbar: {
     display: 'inherit',
     justifyContent: 'space-between',
+    '@media (min-width: 992px)': {
+      justifyContent: 'space-evenly',
+    },
   },
 
   navbarLogo: {

@@ -17,7 +17,9 @@ const Navbar = () => {
             <h4>WeatherApp</h4>
           </div>
           <div className={classes.navbarSearch}>
-            <IconButton><SearchIcon /></IconButton>
+            <IconButton>
+              <SearchIcon />
+            </IconButton>
             <InputBase placeholder="Search..." />
           </div>
         </Toolbar>
