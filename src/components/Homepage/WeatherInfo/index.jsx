@@ -5,8 +5,8 @@ import {
 } from '@mui/material';
 import useStyles from './styles';
 
-const weatherData = (capital, temperature, windSpeed, rain) => ({
-  capital, temperature, windSpeed, rain,
+const weatherData = (capital, temperature, windSpeed, rainfall) => ({
+  capital, temperature, windSpeed, rainfall,
 });
 
 const cities = [
@@ -27,7 +27,7 @@ const WeatherInfo = () => {
               <TableCell className={classes.tableHeaderCell}>City</TableCell>
               <TableCell className={classes.tableHeaderCell}>Temperature (&#8451;)</TableCell>
               <TableCell className={classes.tableHeaderCell}>
-                Wind speed (km/h) and direction
+                Wind speed (m/s) and direction
               </TableCell>
               <TableCell className={classes.tableHeaderCell}>Rainfall (mm)</TableCell>
             </TableRow>
@@ -40,7 +40,7 @@ const WeatherInfo = () => {
                 <TableCell className={classes.tableDataCell}>{city.capital}</TableCell>
                 <TableCell className={classes.tableDataCell} align="right">{city.temperature}</TableCell>
                 <TableCell className={classes.tableDataCell} align="right">{city.windSpeed}</TableCell>
-                <TableCell className={classes.tableDataCell} align="right">{city.rain}</TableCell>
+                <TableCell className={classes.tableDataCell} align="right">{city.rainfall}</TableCell>
               </TableRow>
             ))}
           </TableBody>
