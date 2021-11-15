@@ -1,4 +1,5 @@
 import { createStore, compose } from '@reduxjs/toolkit';
+import loaderReducer from './loader/reducer';
 
 let composeEnhancers = compose;
 
@@ -12,6 +13,7 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 const store = createStore(
+  loaderReducer,
 );
 
 export default store;
