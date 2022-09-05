@@ -1,22 +1,22 @@
 [
   {
     "city": "Warsaw",
-    "Latitude": "52.234982",
-    "Longitude": "21.008490"
+    "latitude": "52.234982",
+    "longitude": "21.008490"
   },
   {
     "city": "Berlin",
-    "Latitude": "52.520008",
-    "Longitude": "13.404954"
+    "latitude": "52.520008",
+    "longitude": "13.404954"
   },
   {
     "city": "Moscow",
-    "Latitude": "55.755871",
-    "Longitude": "37.617680"
+    "latitude": "55.755871",
+    "longitude": "37.617680"
   },
   {
     "city": "Madrid",
-    "Latitude": "40.416775",
-    "Longitude": "-3.703790"
+    "latitude": "40.416775",
+    "longitude": "-3.703790"
   }
 ]
